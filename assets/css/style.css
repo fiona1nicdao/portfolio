@@ -98,7 +98,9 @@ header a:hover {
     width: 70%;
     border-radius: 10px;
     border: 2px solid #d4a91c;
-
+}
+.center{
+    text-align: center;
 }
 .sample {
     display: flex;
@@ -149,7 +151,7 @@ footer ul {
     .textpic{
         display: block;
     }
-/* center image  */
+/* make cards for boxes  */
 /* get the boxes to be in two in a row  */
     .box{
         display: flex;
