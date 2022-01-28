@@ -82,8 +82,8 @@ header a:hover {
 
 }
 .workinfo{
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
 }
 .bigSample{
     display: block;
@@ -95,23 +95,29 @@ header a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 70%;
     border-radius: 10px;
     border: 2px solid #d4a91c;
 
 }
 .sample {
     display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
+    /* display: block; */
+    /* justify-content: center; */
+    /* flex-wrap:wrap; */
+    /* justify-content: space-around; */
     /* position: relative; */
-    flex-direction: column;
+    /* flex-direction: column; */
     /* left: 130px; */
     /* margin: 3rem; */
 }
-
+.box{
+    /* display: flex; */
+    /* display: block; */
+    /* justify-content: center; */
+}
 .smallbox{
-    width: 20%;
+    width: 95%;
     border-radius: 10px;
     border: 2px solid #d87dc9;
 }
@@ -142,5 +148,13 @@ footer ul {
     }
     .textpic{
         display: block;
+    }
+/* center image  */
+/* get the boxes to be in two in a row  */
+    .box{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        /* width: 80%; */
     }
 }
