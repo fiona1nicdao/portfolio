@@ -60,10 +60,12 @@ header a:hover {
     font-size: 3rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    text-align: center;
 }
 .textme{
     font-size: 2rem;
     padding-top: 1rem;
+    text-align: center;
 
 }
 .pictureme{
@@ -72,25 +74,46 @@ header a:hover {
 }
 .me{
     box-shadow: 10px 10px 5px grey;
+    /* align-items: center; */
 }
 .Work{
     display: block;
     margin: 2rem;
 
 }
+.workinfo{
+    display: flex;
+    justify-content: space-evenly;
+}
 .bigSample{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    padding: 5rem;
+    padding: 3rem;
+}
+#project2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-radius: 10px;
+    border: 2px solid #d4a91c;
+
 }
 .sample {
     display: flex;
     flex-wrap:wrap;
-    position: relative;
-    left: 130px;
-    margin: 5rem;
+    justify-content: center;
+    /* position: relative; */
+    flex-direction: column;
+    /* left: 130px; */
+    /* margin: 3rem; */
+}
+
+.smallbox{
+    width: 20%;
+    border-radius: 10px;
+    border: 2px solid #d87dc9;
 }
 footer {
     margin-left: 15px;
@@ -110,7 +133,7 @@ footer ul {
     top: 50px;
     margin-left: 130px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1368px) {
     header {
         background-color: #0b2e7a;
     }
