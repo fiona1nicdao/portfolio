@@ -3,64 +3,76 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 2rem;;
   background-color: #275bec;
   color: #ffffff;
   display: block;
   justify-content: space-between;
 }
 
-h1 {
-    font-size: 400%;
-    /* padding-bottom:3rem; */
+.name {
+    font-size: 4rem;
 }
-nav{
-    align-self: center;
-}
+
 nav ul {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     font-size: 2rem;
-    min-width: 300px;
+    /* min-width: 300px; */
     padding-top: 3rem;
-    padding-bottom: 5px; 
+    /* padding-bottom: 5px;  */
 }
 
 header a {
     color:#ffffff;
+    padding-left: 3rem;
 }
 header a:hover {
     color:#45a4f3;
 }
 
 .AboutMe {
-    /* margin: 20px; */
+    margin: 2rem;
+    display: block;
+    justify-content: center;
+    /* height: 300px; */
+}
+.Me{
+    /* display: block; */
+    font-size: 2rem;
+}
+.textpic{
     display: flex;
-    justify-content: space-between;
-    height: 300px;
+    justify-content: space-evenly;
 }
 .Paragraph{
     display: block;
-    align-items: center;
-    font-size: 200%;
+    padding: 5rem;
+    /* border: 5px solid black; */
 }
-footer {
-    margin-left: 15px;
-    color: #000000;
-    width: 100%;
+.large{
+    font-size: 5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: center;
 }
-footer a {
-    color: #000000;
+.textcoder{
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
-footer a:hover {
-    color: #45a4f3;
+.textme{
+    font-size: 2rem;
+    /* padding-top: 2rem; */
+
 }
-footer ul {
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    top: 50px;
-    margin-left: 130px;
+.pictureme{
+    padding: 5rem;
+    /* border: 5px solid black; */
+}
+.me{
+    box-shadow: 10px 10px 5px grey;
+}
+.Work{
+    display: block;
 }
