@@ -81,10 +81,6 @@ header a:hover {
     margin: 2rem;
 
 }
-.workinfo{
-    /* display: flex; */
-    /* justify-content: space-evenly; */
-}
 .bigSample{
     display: block;
     margin-left: auto;
@@ -95,12 +91,22 @@ header a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
-    border-radius: 10px;
-    border: 2px solid #d4a91c;
+    /* width: 70%; */
+    border-radius:10px 10px 0 0;
+    border: 3px solid  #f3ba70;
 }
 .center{
     text-align: center;
+    margin-left: 183px;
+    width:857px;
+    background-color: #f3ba70;
+    border-radius:0 0 10px 10px;
+
+}
+.titlebox{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 30px;
 }
 .sample {
     display: flex;
