@@ -15,7 +15,7 @@ The Purpose for this project is to have a professional portfolio webpage with wo
 - have UI scrolls to a specified sections 
 - have responsive layout that adapts to the users viewport
 
-Link to [porfolio webpage](https://fiona1nicdao.github.io/Homework_02/)
+Link to [porfolio webpage](https://fiona1nicdao.github.io/portfolio/)
 
 ## Webpage Preview
 This is the view on chrome on a moblie device
