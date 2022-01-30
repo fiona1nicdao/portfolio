@@ -198,6 +198,15 @@ footer ul {
 .email{
     font-size: 2rem;
 }
+@media screen and (max-width: 1698px) {
+    .bigsample{
+        background-color: #f7f0e1;
+        border-radius: 10px;
+    }
+    .container{
+        width: 100%;
+    }
+}
 @media screen and (max-width: 1368px) {
     header {
         background-color: #0b2e7a;
