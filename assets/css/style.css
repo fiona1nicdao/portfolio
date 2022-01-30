@@ -37,7 +37,6 @@ header a:hover {
     /* height: 300px; */
 }
 .Me{
-    /* display: block; */
     font-size: 2rem;
 }
 .textpic{
@@ -74,61 +73,100 @@ header a:hover {
 }
 .me{
     box-shadow: 10px 10px 5px grey;
-    /* align-items: center; */
 }
 .Work{
-    display: block;
+    /* margin: 2rem; */
+}
+.card{
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border:5px solid #deb887;
+    padding: 0;
+    object-fit:fill;
+}
+.bigSample:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container{
+    padding: 2px 16px;
+    display:flex;
+}
+
+.card2{
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border:5px solid #deb887;
+    padding: 0;
+    object-fit:fill;
     margin: 2rem;
 
 }
-.bigSample{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 3rem;
-}
-#project2{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* width: 70%; */
-    border-radius:10px 10px 0 0;
-    border: 3px solid  #f3ba70;
-}
-.center{
-    text-align: center;
-    margin-left: 183px;
-    width:857px;
-    background-color: #f3ba70;
-    border-radius:0 0 10px 10px;
-
-}
-.titlebox{
-    padding-bottom: 10px;
-    padding-top: 10px;
-    font-size: 30px;
-}
 .sample {
     display: flex;
-    /* display: block; */
-    /* justify-content: center; */
-    /* flex-wrap:wrap; */
-    /* justify-content: space-around; */
-    /* position: relative; */
-    /* flex-direction: column; */
-    /* left: 130px; */
-    /* margin: 3rem; */
 }
-.box{
-    /* display: flex; */
-    /* display: block; */
-    /* justify-content: center; */
-}
+
 .smallbox{
     width: 95%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     border: 2px solid #d87dc9;
 }
+*{
+    box-sizing: border-box;
+}
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .titlebox{
+    font-size: 2rem;
+    font-weight: 900;
+    padding-bottom: 1rem;
+
+  }
+  .smimage{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .github{
+      background-color: #daa520;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      border-radius: 5px;
+      font-weight: 900;
+      font-size: 25px;
+  }
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
 footer {
     margin-left: 15px;
     color: #000000;
