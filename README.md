@@ -19,4 +19,4 @@ Link to [porfolio webpage](https://fiona1nicdao.github.io/portfolio/)
 
 ## Webpage Preview
 This is the view on chrome on a moblie device
-![Fiona Nicdao]()
+![Fiona Nicdao](/assets/images/preview.png)
